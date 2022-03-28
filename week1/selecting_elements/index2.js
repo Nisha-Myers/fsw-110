@@ -23,4 +23,4 @@ h.appendChild(t); // Append the text node to the H1 element
 document.body.appendChild(h); // Append the H1 element to the document body 
 */
 
-document.getElementById("yourH1_element_Id").innerHTML = "yourTextHere";
+document.getElementById("heading").innerHTML = "This was inserted with JavaScript";
