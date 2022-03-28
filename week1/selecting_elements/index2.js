@@ -1,4 +1,4 @@
-var x = document.getElementById("header");
+var heading = document.getElementById("heading");
 var text = document.createTextNode("This was inserted with JavaScript");
 
-x.appendChild(text);
+heading.appendChild(text);
