@@ -10,11 +10,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <script>
-     document.getElementById("heading").innerHTML = "yourTextHere";
+     lefunction newContent() {
+      document.open();
+      document.write("<h1>Out with the old, in with the new!</h1>");
+      document.close();
+    }t textNode = document.createTextNode("Hello World"); document.body.appendChild(textNode);
         </script>
     </head>
     
-    <body> 
+    <body onload = "newContent();"> 
         
         <h1 id = "heading"> </h1>
         
