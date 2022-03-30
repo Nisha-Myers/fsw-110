@@ -11,16 +11,31 @@ aParagraph.appendChild(myParagraph);
 
 
 var newItem = document.createElement("li");
-newItem.textContent = "drawing"
-var mylist = document.getElementById("one");
-mylist.append(newItem);
+newItem.textContent = "studying for my College classes"
+var mylist = document.getElementById("mylist");
+mylist.prepend(newItem);
+
+var newItem = document.createElement("li");
+newItem.textContent = "practicing coding"
+var mylist = document.getElementById("mylist");
+mylist.prepend(newItem);
+
+var newItem = document.createElement("li");
+newItem.textContent = "playing guitar"
+var mylist = document.getElementById("mylist");
+mylist.prepend(newItem);
 
 var newItem = document.createElement("li");
 newItem.textContent = "sculpting"
-var mylist = document.getElementById("two");
-mylist.append(newItem);
+var mylist = document.getElementById("mylist");
+mylist.prepend(newItem);
+
+var newItem = document.createElement("li");
+newItem.textContent = "drawing"
+var mylist = document.getElementById("mylist");
+mylist.prepend(newItem);
 
 var newItem = document.createElement("li");
 newItem.textContent = "gaming"
-var mylist = document.getElementById("three");
-mylist.append(newItem);
+var mylist = document.getElementById("mylist");
+mylist.prepend(newItem);
