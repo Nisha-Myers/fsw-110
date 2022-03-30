@@ -4,7 +4,7 @@ var header = document.getElementById("heading");
 header.appendChild(heading);
 
 var myParagraph = document.createElement("p");
-myParagraph.textContent = "All of this was created with Javascript";
+myParagraph.textContent = "This is my paragraph for my first fsw-110 class website...";
 var paragraph = document.getElementById("paragraph");
 paragraph.appendChild(myParagraph);
 
