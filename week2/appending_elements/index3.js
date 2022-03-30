@@ -4,3 +4,4 @@ var mylist = document.getElementById("mylist");
 mylist.appendChild(newItem);
 
 //var myParagraph = document.createElement("p");
+
