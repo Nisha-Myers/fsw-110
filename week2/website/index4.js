@@ -1,10 +1,10 @@
 var heading = document.createElement("h1");
-heading.textContent = "My FSW-110 Website";
+heading.textContent = "My FSW-110 Website Project";
 var myHeader = document.getElementById("heading");
 myHeader.appendChild(heading);
 
 var myParagraph = document.createElement("p");
-myParagraph.textContent = "All of this was created with Javascript";
+myParagraph.textContent = "My favorite hobbies include:";
 var aParagraph = document.getElementById("paragraph");
 aParagraph.appendChild(myParagraph);
 

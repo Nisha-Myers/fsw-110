@@ -1,5 +1,5 @@
 var heading = document.createElement("h1");
-heading.textContent = "My FSW-110 Website";
+heading.textContent = "Welcome to my JS site";
 var myHeader = document.getElementById("heading");
 myHeader.appendChild(heading);
 
