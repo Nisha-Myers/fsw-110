@@ -3,4 +3,4 @@
 var header = document.createElement("h1");
 header.textContent = "This text was inserted with JavaScript";
 var heading = document.getElementById("heading");
-mylist.appendChild(header);
+heading.appendChild(header);
