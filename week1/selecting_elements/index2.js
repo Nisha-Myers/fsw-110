@@ -1,1 +1,2 @@
-document.getElementById("heading");
+document.getElementById("heading").innerHTML = "yourTextHere";
+
