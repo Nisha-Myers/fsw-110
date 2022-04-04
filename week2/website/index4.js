@@ -5,10 +5,9 @@ document.body.prepend(newNav);
 
 
 
+
 /*
-if (window.location.href.contains('/home')) {
-    document.getElementsByClassName('Home-link')[0]?.classList.add('active');
-}
+I had difficulties figuring out how to make a navbar with ONLY JS... I searched & searched to no avail...
 */
 
 
