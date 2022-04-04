@@ -24,7 +24,6 @@ document.body.appendChild(newP);
 
 
 
-
 // my ordered list
 var newList = document.createElement("ol");
 newList.textContent = "~My Hobbies~"
@@ -69,6 +68,10 @@ var newFooter = document.createElement("footer");
 newFooter.textContent = "Author: Denisha Shae Myers"
 newFooter.style.fontSize = "13px"
 document.body.appendChild(newFooter);
+
+
+
+
 
 
 // change background color
