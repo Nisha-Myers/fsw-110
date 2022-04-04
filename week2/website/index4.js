@@ -2,15 +2,9 @@
 var newNav = document.createElement("nav");
 newNav.textContent = "home about news";
 document.body.prepend(newNav);
-
-
-
-
 /*
 I had difficulties figuring out how to make a navbar with ONLY JS... I searched & searched to no avail...
 */
-
-
 
 
 
