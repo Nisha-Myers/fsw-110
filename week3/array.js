@@ -1,7 +1,7 @@
 for (var i = 0; i < 10; i++) {      
     var newH = document.createElement("h1");
     newH.textContent = "Hello World";
-    newH.setAttribute("style", "color:purple")
+    newH.setAttribute("style", "color: purple")
     document.body.appendChild(newH);
 }
 
