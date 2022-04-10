@@ -10,5 +10,14 @@ for (var i = 0; i < 5; i++) {
 }
 
 
-var newH = header.classList;
-var myBorder = border.classList;
+
+
+var border = document.getElementById("border");
+border.className += "new-class";
+border.classList.add("new-class");
+console.log(border.classList);
+
+var heading = document.getElementById("h2");
+heading.className += "my-class";
+heading.classList.add("my-class");
+console.log(heading.classList);
