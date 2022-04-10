@@ -10,4 +10,5 @@ for (var i = 0; i < 5; i++) {
 }
 
 
-
+var newH = header.classList;
+var myBorder = border.classList;
