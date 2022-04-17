@@ -1,0 +1,69 @@
+
+#div1 {
+    background-color: white;
+    border: 4px solid black;
+    height: 400px;
+    width: 400px;
+    float: right;
+    margin: 5px;
+}
+#div1:hover {
+    background-color: green;
+}
+
+#div1:active {
+    background-color: yellow;
+}
+
+#btn1 {
+    color: white;
+    background-color: white;
+    margin: 10px;
+}
+
+#btn2 {
+    color: black;
+    background-color: black;
+    margin: 10px;
+}
+
+#btn3 {
+    color: green;
+    background-color: green;
+    margin: 10px;
+}
+
+#btn4 {
+    color: yellow;
+    background-color: yellow;
+    margin: 10px;
+}
+
+#btn5 {
+    color: blue;
+    background-color: blue;
+    margin: 10px;
+}
+
+#btn6 {
+    color: red;
+    background-color: red;
+    margin: 10px;
+}
+
+#btn7 {
+    color: purple;
+    background-color: purple;
+    margin: 10px;
+}
+
+/*
+.div1 {
+    background-color: antiquewhite;
+    background-color: black;
+    background-color: yellow;
+    background-color: blue;
+    background-color: red;
+    background-color: purple;
+}
+*/

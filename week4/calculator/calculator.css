@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto", "Noto Sans", "Helvetica", sans-serif;
+    font-size: 14px;
+    background-color: #703e68;
+    height: 100%;
+}
+  
+.calc {
+    width: 350px;
+    height: auto;
+    margin: 70px auto 0;
+    overflow: hidden;
+    box-shadow: 4px 4px rgba(24, 23, 23, 0.2);
+}
+  
+.calc span {
+    -moz-user-select: none;
+    user-select: none;
+}
+  
+.top {
+    position: relative;
+    height: 150px;
+    background-color: #ac83a5;;
+}
+  
+.top .units {
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: 700;
+    color: #6b4c66;
+}
+  
+.top .screen {
+    position: relative;
+    width: 100%;
+    top: 20%;
+    height: 80%;
+}
+  
+.screen > div  {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 5px;
+    text-align: right;
+}
+  
+.screen .input {
+    color: #080808;
+    height: 60%;
+    font-size: 35px;
+}
+  
+.screen .res {
+    color: #581f56;
+    font-size: 20px;
+    height: 40%;
+}
+  
+.bottom {
+    background-color: #2D2D2D;
+    height: 300px;
+    color: rgb(238, 192, 232);
+    cursor: pointer;
+}
+  
+.bottom section {
+    position: relative;
+    height: 100%;
+    float: left;
+    display: flex;
+}
+  
+.keys .column span {
+    font-size: 25px;
+}
+  
+.keys .column span:hover, .operators span:hover {
+    background-color: rgba(10, 194, 250, 0.2);
+}
+
+.keys {
+    width: 80%;
+}
+
+  
+.keys .column {
+    display: flex;
+    flex-grow: 1;
+}
+
+.keys .column span, .operators span {
+    position: relative;
+    overflow: hidden;
+    flex-grow: 1;
+    width: 100%;
+    line-height: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.6s;
+}
+
+.keys .column, .operators {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.operators {
+    width: 20%;
+    font-size: 18px;
+    background-color: #384d52;
+}
+  
+.del {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.error {
+    color: #C2185B;
+}
