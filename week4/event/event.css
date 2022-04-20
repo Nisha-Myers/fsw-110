@@ -1,0 +1,84 @@
+body {
+    background-color: bisque;
+}
+
+#square {
+    float: inline-end;
+}
+
+#title {
+    font-size: 40px;
+    color: rgb(241, 112, 89);
+    font-weight: bolder;
+    margin-top: 9px;
+    margin-bottom: 2px;
+    text-align: center;
+    font-family: 'Beau Rivage', cursive;
+}
+
+#table2 {
+    background-color: rgba(114, 82, 39, 0.664);
+    font-size: 20px;
+    margin-left: 140px;
+    border: 7px solid rgba(114, 82, 39, 0.664);
+}
+
+.myTitles {
+    color: bisque;
+    background-color: darkslategrey;
+}
+
+#inner1 {
+    color: rgb(187, 245, 195);
+    background-color: green;
+    margin: 20px;
+    text-align: center;
+}
+
+#inner2 {
+    color: rgb(105, 90, 3);
+    background-color: yellow;
+    margin: 20px;
+    text-align: center;
+}
+
+#inner3 {
+    color: rgb(187, 184, 236);
+    background-color: blue;
+    margin: 20px;
+    text-align: center;
+}
+
+#inner4 {
+    color: rgb(240, 193, 193);
+    background-color: red;
+    margin: 20px;
+    text-align: center;
+}
+
+#inner5 {
+    color: rgb(231, 196, 255);
+    background-color: purple;
+    margin: 20px;
+    text-align: center;
+}
+
+#td1 {
+    color:rgb(205, 248, 214);
+}
+
+#td2 {
+    color: rgb(105, 90, 3);
+}
+
+#td3 {
+    color: rgb(187, 184, 236);
+}
+
+#td4 {
+    color: rgb(240, 193, 193);
+}
+
+#td5 {
+    color: rgb(231, 196, 255);
+}

@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "jsdom": "^19.0.0"
+    "event": "^1.0.0",
+    "jsdom": "^19.0.0",
+    "listener": "^1.0.1",
+    "react": "^18.0.0"
   }
 }
