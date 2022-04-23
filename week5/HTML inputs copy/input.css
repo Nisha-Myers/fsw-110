@@ -1,0 +1,86 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-weight: bolder;
+    background-color: beige;
+}
+   
+#forms {
+    font-family: 'Whisper', cursive;
+    font-size: 27px;
+    color: sienna;
+}
+
+select {
+    font-family: 'Courgette', cursive;
+    background-color: bisque;
+    color:rgb(114, 64, 28);
+    font-size: 16px;
+}
+select:hover {
+    background-color: rgba(160, 111, 102, 0.678);
+}
+
+option {
+
+    background-color:rgba(210, 180, 140, 0.822);
+}
+
+label {
+    color: saddlebrown;
+    font-size: 35px;
+}
+
+input {
+    border-radius: 20%;
+    font-size: large;
+    font-family: 'Ms Madi', cursive;
+    color:rgb(114, 64, 28);
+    background-color: bisque;
+    border: 2px solid rgba(160, 111, 102, 0.678);
+}
+input:hover {
+    background-color: rgba(160, 111, 102, 0.678);
+    border: 2px solid rgba(110, 63, 31, 0.767);
+}
+
+h1, h2, h4 {
+    color: sienna;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Beau Rivage', cursive;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Beau Rivage', cursive;
+    font-size: 48px;
+}
+
+h4 {
+    font-family: 'Beau Rivage', cursive;
+    font-size: 28px;
+}
+
+button {
+    font-family: 'Ms Madi', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: 20px 10px 20px rgb(29, 24, 25);
+    border: 8px solid tan;
+    border-radius: 28%;
+    color: rgb(92, 46, 38);
+    background-color: tan;
+}
+button:hover {
+    font-weight: bolder;
+    font-size: 38px;
+    border: 6px solid tan;
+    box-shadow: 30px 20px 30px rgb(29, 24, 25);
+}
