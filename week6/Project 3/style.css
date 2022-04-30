@@ -1,0 +1,228 @@
+html {
+    background-color: bisque;
+    font-family: 'Water Brush', cursive;
+    text-align: center;
+    color: rgb(126, 63, 18);
+}
+
+#heading {
+    background-image: url("cottage.jpg");
+    color: burlywood;
+    font-family: 'Whisper', cursive;
+    font-size: 900px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 40px;
+    color: burlywood; 
+}
+
+b {
+    color: burlywood;
+}
+
+input {
+    font-family: 'Water Brush', cursive;
+}
+
+.bagel {
+    margin-top: 100px;
+}
+
+.tea {
+    margin-top: 100px;
+}
+
+.coffee {
+    margin-top: 100px;
+}
+
+.foodName {
+    font-size: 50px;
+}
+
+.image1 {
+    border-radius: 50%;
+    width: 600px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 600px;
+}
+
+.cottagePic {
+    font-weight: 550;
+    font-size: 35px;
+}
+
+.worth {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.inputs {
+    border-radius: 20%;
+    border: 3px solid rgb(146, 126, 100);
+    background-color: rgba(197, 167, 121, 0.726);
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.inputs:hover {
+    border-radius: 20%;
+    border: 3px solid rgb(107, 83, 54);
+    background-color: rgba(143, 92, 15, 0.726);
+}
+
+#button1 {
+    color: rgb(126, 63, 18);
+    font-family: 'Water Brush', cursive;
+    background-color:rgb(226, 201, 164);
+    font-size: 45px;
+    border-radius: 50%;
+    border: 3px solid bisque;
+}
+#button1:hover {
+    color: rgb(71, 36, 11);
+    font-family: 'Water Brush', cursive;
+    background-color:rgb(226, 201, 164);
+    font-size: 52px;
+    border-radius: 50%;
+    border: 3px solid bisque;
+}
+
+#bye {
+    color: bisque;
+    background-image: url("cottage.jpg");
+    font-size: 25px;
+}
+
+.footer {
+    color: bisque;
+    background-image: url("cottage.jpg");
+    font-size: 15px;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+html {
+    background-color: bisque;
+    font-family: 'Whisper', cursive;
+    text-align: center;
+    color: rgb(126, 63, 18);
+}
+
+#heading {
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 40px;
+    color: burlywood; 
+}
+
+.cottage {
+    width: 700px; 
+}
+
+.cottagePic {
+    font-size: 40px;
+}
+
+.foodName {
+    font-size: 70px;
+}
+
+.image1 {
+    border-radius: 50%;
+    width: 600px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 600px;
+}
+
+#bye {
+    color: bisque;
+    background-image: url("cottage.jpg");
+    font-size: 40px;
+}
+
+.footer {
+    color: bisque;
+    background-image: url("cottage.jpg");
+    font-size: 25px;
+}
+
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+
+html {
+    background-color: bisque;
+    font-family: 'Whisper', cursive;
+    text-align: center;
+    color: rgb(126, 63, 18);
+}
+
+#heading {
+    font-size: 90px;
+}
+
+h3 {
+    font-size: 50px;
+    color: burlywood; 
+}
+
+.cottage {
+    width: 1024px;
+}
+
+.cottagePic {
+    font-size: 45px;
+}
+
+.foodName {
+    font-size: 80px;
+    margin-top: 400px;
+}
+
+.image1 {
+    border-radius: 50%;
+    width: 800px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 800px;
+}
+
+.inputs {
+    font-size: 25px;
+}
+
+#bye {
+    color: bisque;
+    background-image: url("cottage.jpg");
+    font-size: 45px;
+}
+
+.footer {
+    color: bisque;
+    background-image: url("cottage.jpg");
+    font-size: 30px;
+}
+
+}
