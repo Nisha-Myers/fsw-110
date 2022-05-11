@@ -1,0 +1,101 @@
+/* Header Section */
+header {
+    background-image: url(purple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 10px 33px 83px 60px rgba(0, 0, 0, 0.7);
+
+    text-shadow: 15px 8px rgba(255, 255, 255, 0.349);
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+
+    color: rgb(212, 235, 215);
+    padding: 1%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    font-weight: bolder;
+}
+
+
+
+/* Body Area */
+body {
+    background-image: url(green.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 10px 33px 83px 60px rgba(0, 0, 0, 0.7);
+    
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.904);
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(212, 235, 215);
+
+    font-weight: bold;
+
+    padding: 4%;
+}
+
+
+/* Main Section */
+main {}
+
+
+/* Detailed List */
+dl {
+    padding: 4%;
+    box-shadow: 10px 33px 83px 60px rgba(0, 0, 0, 0.7);
+}
+
+dt {
+    padding: 3%;
+    font-weight: bolder;
+    color: rgb(79, 126, 85);
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.993);
+    font-size: 30px;
+}
+dt:hover {
+    box-shadow: 10px 33px 83px 60px rgba(0, 0, 0, 0.7);
+}
+
+dd {
+    padding-left: 6%;
+    padding-right: 8%;
+    font-size: 20px;
+}
+dd:hover {
+    box-shadow: 10px 33px 83px 60px rgba(0, 0, 0, 0.7);
+    font-size: 35px;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 38px;
+}
+
+p {
+    font-size: 26px;
+}
+
+
+/* Footer */
+footer {
+    padding: 6%;
+    margin: 1%;
+    text-shadow: 2px 2px rgba(25, 221, 74, 0.904);
+    color: rgb(212, 235, 215);
+    font-family: 'Press Start 2P', cursive;
+}
+footer:hover {
+    box-shadow: 10px 33px 83px 60px rgba(0, 0, 0, 0.7);
+    font-size: 40px;
+    padding: 10%;
+}
+
+span {
+    font-size: 28px;
+}
