@@ -1,9 +1,10 @@
 * {
-    background-color: bisque;
+    background-color: rgb(238, 223, 206);
 }
 
 body {
-    border: 4px dashed rgb(145, 113, 71);
+    border: 17px solid rgba(122, 74, 51, 0.527);
+
     padding: 40px;
 }
 
@@ -32,7 +33,7 @@ input:hover {
 
 button {
     border-radius: 50%;
-    font-size: 26px;
+    font-size: 28px;
     margin-top: 60px;
     margin-right: auto;
     margin-left: auto;
@@ -41,4 +42,9 @@ button {
     background-color: rgba(160, 81, 45, 0.637);
     color: bisque;
     border: 3px solid rgb(145, 113, 71);
+
+    text-shadow: 20px 20px rgba(0, 0, 0, 0.178);
+}
+button:hover {
+    font-size: 42px;
 }

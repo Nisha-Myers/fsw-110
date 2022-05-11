@@ -9,7 +9,7 @@ function newAlert() {
     var email = form.elements["email"].value;
     var age = form.elements["age"].value;
 
-    alert ("Full Name: " + fullName + "\nEmail: " + email + "\nAge: " + age);
+    alert ("Full Name: " + fullName + "\nEmail: " + email + "\nMembers: " + age);
 
     form.reset();
 };
